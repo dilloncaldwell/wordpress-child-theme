@@ -4,53 +4,8 @@ Description:  Twenty Twenty-One Child Theme
 Author:       Dillon Caldwell
 Author URI:   https://dilloncaldwell.net
 Template:     twentytwentyone
-Version:      1.0.0
+Version:      1.0.1
 License:      GNU General Public License v2 or later
 License URI:  http://www.gnu.org/licenses/gpl-2.0.html
 Text Domain:  twentytwentyonechild
 */
-body {
-	background-color: azure;
-}
-
-/* Header */
-#masthead {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: azure;
-	width: 100%;
-	margin: 0 auto;
-}
-
-/* nav menu */
-
-.nav-menu {
-	display: inline-flex;
-	padding: 10px;
-	list-style-type: none;
-}
-.nav-menu li {
-	padding: 10px;
-}
-#site-navigation .menu-toggle {
-	display: none;
-}
-
-#page {
-	width: 100%;
-}
-
-/* page content */
-.page-container {
-	padding: 50px 100px;
-	background: #fcfcfc;
-}
-
-/* footer */
-.footer-copyright {
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	padding: 20px 0;
-}
