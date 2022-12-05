@@ -15,6 +15,10 @@
         <div class="carousel-caption">
             <h3>Static Headline And Content</h3>
             <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+            <div class="action-btns ">
+                <button class="main-cta">Main CTA Btn</button>
+                <button class="sec-cta">Secondary CTA Btn</button>
+                </div>
         </div>
         <?php $slider = get_posts(array('post_type' => 'slider', 'posts_per_page' => 5, 'order' => 'ASC')); ?>
           <?php $count = 0; ?>
@@ -38,7 +42,6 @@
       </button>
     </div>
 </section>
-
 
 <section class="page-wrapper">
     <div class="container">
