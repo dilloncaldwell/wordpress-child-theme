@@ -1,5 +1,5 @@
 <?php get_header(); ?>
 
-<p>index.php template loaded</p>
+<p>archive.php template loaded</p>
 
 <?php get_footer(); ?>
